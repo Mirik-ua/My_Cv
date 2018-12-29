@@ -1,0 +1,484 @@
+$clear: none;
+$colorForBg: #f5f5f5;
+$greenColor: #2eca7f;
+$colorForTitle: #a9a9a9;
+$colorWhite: #fff;
+$colorBlack: #000;
+$fonts: Geneva, Arial , Helvetica, sans-serif;
+
+body{
+	background-color: $colorForBg;
+}
+.container {
+	max-width: 100%;
+	width: 100%;
+}
+#head {
+  display: flex;
+  flex-direction: row;
+  width: 78%;
+  padding-left: 11%;
+  padding-right: 11%;
+  height: 60px;
+  margin-top: -10px;
+  span {
+    color: $greenColor;
+  }
+  h2 {
+    width: 40%;
+    padding-top: 20px;
+  }
+  .dropDownMenu{
+    display: flex;
+    padding-top: 4px;
+    width: 60%;
+    margin-left: 20%;
+    flex-direction: row;
+    a {
+      color: $colorForTitle;
+      font-size: 1.6em;
+      text-decoration: $clear;
+      margin: 0 auto;
+    }
+  }
+  img{
+    display: $clear;
+  }
+ }
+.main{
+	position: relative;
+	height:	1750px;
+	margin-top: 40px;
+	width: 78%;
+	margin-left: 11%;
+	background-color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	font-family: $fonts;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.top{
+	display: flex;
+	flex-direction: row;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+  img{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    height: 450px;
+  }
+}
+.bot{
+	position: absolute;
+	border: 1px solid $colorWhite;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: -50px;
+	background-color: $colorWhite;
+	color: $colorBlack;
+
+  .inBot{
+    margin-left: 4%;
+    label{
+       a{
+      color: $colorForTitle;
+      font-size: 1em;
+      }
+    }
+    p{
+      color: $colorBlack;
+      font-size: 16px;
+      margin-top: 30px;
+    }
+    .for{
+      border-left: 3px solid $greenColor;
+      width: 100%;
+      height: 85px;
+      font-size: 16px;
+      margin-top: 40px;
+      .inFor{
+        margin: 30px;
+      }
+    }
+  }
+  #addComment{
+    width: 130px;
+    height: 45px;
+    background-color: $greenColor;
+    color: $colorWhite;
+    border-radius: 10px;
+    border: $clear;
+    box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.1);
+  }
+  .comments{
+    .comment1{
+      .images{
+         img{
+    border-radius: 35px;
+    width: 70px;
+    font-size: 15px;
+      }
+    }
+    .name{
+      vertical-align: top;
+      color: $greenColor;
+      font-size: 13px;
+    }
+    .visited{
+      vertical-align: top;
+      color: $colorForTitle;
+      font-size: 13px;
+    }
+    .commentText{
+      width: 87%;
+      margin-left: 12%;
+      margin-top: -5%;
+      margin-bottom: 40px;
+    }
+  }
+  .comment2{
+    .images {
+      img{
+    border-radius: 35px;
+    width: 70px;
+    font-size: 15px;
+    margin-left: 10%;
+        }
+      }
+      .name{
+        vertical-align: top;
+        color: $greenColor;
+        font-size: 13px;
+      }
+      .visited{
+        vertical-align: top;
+        color: $colorForTitle;
+        font-size: 13px;
+      }
+      .commentText{
+        width: 80%;
+        margin-left: 22%;
+        margin-top: -5%;
+        margin-bottom: 40px;
+      }
+     }
+     .comment3{
+       .images {
+         img{
+       border-radius: 35px;
+       width: 70px;
+       font-size: 15px;
+       margin-left: 10%;
+           }
+         }
+         .name{
+           vertical-align: top;
+           color: $greenColor;
+           font-size: 13px;
+         }
+         .visited{
+           vertical-align: top;
+           color: $colorForTitle;
+           font-size: 13px;
+         }
+         .commentText{
+           width: 77%;
+           margin-left: 22%;
+           margin-top: -5%;
+           margin-bottom: 40px;
+         }
+        }
+    }
+    .forText{
+       .inputText{
+      border-right: $clear;
+      border-top: $clear;
+      border-left: $clear;
+      }
+    }
+  }
+#footer{
+	height: 30px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+	}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.main{
+	margin-top: 25px;
+	max-width: 98%;
+	width: 98%;
+	margin-left: 1%;
+	height: 1850px;
+}
+#head {
+	width: 80%;
+	margin-top: -15px;
+	margin-left: -1%;
+	height: 80px;
+	background-color: $greenColor;
+	color: $colorWhite;
+	font-size: 1.2em;
+	 h2{
+		color: #e9faf1;
+		display: flex;
+		flex-direction: row;
+		margin-left: -70px;
+		margin-top: 5px;
+	}
+	 span {
+		margin-left: 8px;
+		color: #e9faf1;
+	}
+	.dropDownMenu{
+		display: $clear;
+		position: absolute;
+		margin-top: 80px;
+		margin-left: 49.5%;
+		height: 1920px;
+		width: 40%;
+		background: $greenColor;
+		z-index: 1;
+		 h6{
+			 color: #e9faf1;
+			 text-align: center;
+		 }
+	}
+	img{
+		margin-top: 20px;
+		margin-left: 85%;
+		display: inline;
+		width: 55px;
+		height: 55px;
+	}
+}
+.bot {
+ 	margin-top: 2%;
+ 	width: 90%;
+ 	margin-left: 3%;
+  .inBot{
+     h1{
+    font-size: 2.5em;
+    }
+    label{
+      font-size:  1em;
+      margin-bottom: 20px;
+    }
+  }
+  }
+ }
+@media only screen and (min-device-width: 320px) and (max-device-height: 812px) and (orientation : portrait){
+	.main{
+		margin-top: 25px;
+		max-width: 98%;
+		width: 98%;
+		margin-left: 1%;
+		height: 3100px;
+	}
+	#head {
+    height: 50px;
+    font-size: 2.1em;
+    padding-top: 8%;
+      h2 {
+      margin-top: -60px;
+      padding-left: 2%;
+    }
+    .dropDownMenu{
+      margin-top: 40px;
+      font-size: 1.2em;
+      margin-left: 9.5%;
+      width: 80%;
+      height: 3200px;
+      h6{
+        text-align: center;
+      }
+    }
+      img{
+        margin-top: -35px;
+        margin-left: 70%;
+      }
+    }
+  .top{
+    img{
+      width: 80%;
+      height: 90%;
+      margin-top: 100px
+    }
+  }
+ 	.bot {
+ 		margin-top: 2%;
+    width: 85%;
+    margin-left: 7%;;
+  .inBot{
+       h1{
+         font-size: 4.2em;
+      }
+      label{
+        font-size:  1.7em;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 1.6em;
+        margin-bottom: 50px;
+      }
+      .for{
+        border-left: 5px solid $greenColor;
+        height: 50%;
+        .inFor{
+          font-size: 1em;
+        }
+      }
+      .comments{
+        font-size: 1.3em;
+        .comment1{
+            .images{
+              .name{
+                font-size: 1.3em;
+              }
+              .visited{
+                font-size: 1em;
+              }
+            }
+            label{
+              font-size: 1.6em;
+            }
+        }
+        .comment2{
+            .images{
+              .name{
+                font-size: 1.3em;
+              }
+              .visited{
+                font-size: 1em;
+              }
+            }
+            .comment1 label{
+              font-size: 1.5em;
+            }
+      }
+      .comment3{
+          .images{
+            .name{
+              font-size: 1.3em;
+            }
+            .visited{
+              font-size: 1em;
+            }
+          }
+          .comment1 label{
+            font-size: 1.3em;
+            }
+          }
+        }
+      }
+    }
+@media only screen and (max-device-width: 560px){
+  }
+		.main{
+			margin-top: 25px;
+			max-width: 98%;
+			width: 98%;
+			margin-left: 1%;
+			height: 3100px;
+		}
+		#head {
+	    height: 50px;
+	    font-size: 2.1em;
+	    padding-top: 8%;
+	      h2 {
+	      margin-top: -60px;
+	      padding-left: 2%;
+	    }
+	    .dropDownMenu{
+	      margin-top: 40px;
+	      font-size: 1.2em;
+	      margin-left: 9.5%;
+	      width: 80%;
+	      height: 3200px;
+	      h6{
+	        text-align: center;
+	      }
+	    }
+	      img{
+	        margin-top: -35px;
+	        margin-left: 70%;
+	      }
+	    }
+	  .top{
+	    img{
+	      width: 80%;
+	      height: 90%;
+	      margin-top: 100px
+	    }
+	  }
+	 	.bot {
+	 		margin-top: 2%;
+	    width: 85%;
+	    margin-left: 7%;;
+	  .inBot{
+	       h1{
+	         font-size: 4.2em;
+	      }
+	      label{
+	        font-size:  1.7em;
+	        margin-bottom: 20px;
+	      }
+	      p{
+	        font-size: 1.6em;
+	        margin-bottom: 50px;
+	      }
+	      .for{
+	        border-left: 5px solid $greenColor;
+	        height: 50%;
+	        .inFor{
+	          font-size: 1em;
+	        }
+	      }
+	      .comments{
+	        font-size: 1.3em;
+	        .comment1{
+	            .images{
+	              .name{
+	                font-size: 1.3em;
+	              }
+	              .visited{
+	                font-size: 1em;
+	              }
+	            }
+	            label{
+	              font-size: 1.6em;
+	            }
+	        }
+	        .comment2{
+	            .images{
+	              .name{
+	                font-size: 1.3em;
+	              }
+	              .visited{
+	                font-size: 1em;
+	              }
+	            }
+	            .comment1 label{
+	              font-size: 1.5em;
+	            }
+	      }
+	      .comment3{
+	          .images{
+	            .name{
+	              font-size: 1.3em;
+	            }
+	            .visited{
+	              font-size: 1em;
+	            }
+	          }
+	          .comment1 label{
+	            font-size: 1.3em;
+	            }
+	          }
+	        }
+	      }
+	    }
+	  }

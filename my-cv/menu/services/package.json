@@ -1,0 +1,30 @@
+{
+  "name": "gulptask",
+  "version": "1.0.0",
+  "description": "my first gulp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirik-ua/GulpTask.git"
+  },
+  "keywords": [
+    "gulp",
+    "js",
+    "project"
+  ],
+  "author": "Miroslav Stochko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirik-ua/GulpTask/issues"
+  },
+  "homepage": "https://github.com/Mirik-ua/GulpTask#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}

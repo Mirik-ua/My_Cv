@@ -1,0 +1,46 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.head button {
+  width: 60px;
+  height: 45px;
+  font-size: 20px;
+  color: #d3d3d3;
+  border: 1px solid #000;
+  background: #fff;
+  margin: 5px; }
+
+.title {
+  margin-left: 40%; }
+
+.main {
+  display: flex;
+  flex-direction: row; }
+
+.main .leftSide {
+  flex-direction: column; }
+
+.main .leftSide img {
+  margin-left: 10%;
+  width: 90%; }
+
+.main .rightSide {
+  width: 90%; }
+
+.main .rightSide .containerRightSide {
+  width: 90%;
+  margin-left: 5%;
+  font-style: Geneva, Arial, Helvetica, sans-serif; }
+
+.main .rightSide .containerRightSide span {
+  color: #2eca7f; }
+
+.main .rightSide .containerRightSide .buttons button {
+  border: none;
+  background: #d3d3d3;
+  color: #000; }
+
+.main .rightSide .share img {
+  width: 30px; }
